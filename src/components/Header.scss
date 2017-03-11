@@ -1,0 +1,15 @@
+.Header {
+  min-height: 80px;
+  max-height: 80px;
+  color: gray;
+}
+
+.Header-logo {
+  animation: Header-logo-spin infinite 20s linear;
+  height: 60px;
+}
+
+@keyframes Header-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}

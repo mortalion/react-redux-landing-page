@@ -1,0 +1,20 @@
+.Footer {
+  padding-top: 2rem;
+  //padding-bottom: 2rem;
+  background-color: #333;
+  h6 {
+    color: lightgray;
+  }
+  a {
+    padding: 0;
+    color: lightgray;
+    &:hover {
+      color: darkgray;
+    }
+  }
+  p {
+    margin-bottom: .5rem;
+    font-size: .8rem;
+    color: darkgray;
+  }
+}

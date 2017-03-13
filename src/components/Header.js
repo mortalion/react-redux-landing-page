@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Collapse, Nav, Navbar, NavbarBrand, NavbarToggler,
   NavItem, NavLink } from 'reactstrap';
-import logo from '../assets/logo.svg';
+import logo from '../assets/react-logo.svg';
 import './Header.css';
 
 class Header extends Component {
@@ -29,27 +29,19 @@ class Header extends Component {
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#now">Now</NavLink>
+                <NavLink href="#now">Skills</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#roles">Roles</NavLink>
               </NavItem>
               <NavItem>
-                <NavLink href="#then">Then</NavLink>
+                <NavLink href="#then">Foundation</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#clients">Clients</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#about">About</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://www.linkedin.com/in/patrickflexjamieson/" target="_blank">
-                Linked In</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="https://github.com/reactstrap/reactstrap" target="_blank">
-                  Github</NavLink>
               </NavItem>
             </Nav>
           </Collapse>

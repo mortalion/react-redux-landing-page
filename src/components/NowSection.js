@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Col, Container, Jumbotron, Row } from 'reactstrap';
+import { Col, Container, Row } from 'reactstrap';
 import cloud from '../assets/TechStackWordCloud.svg';
 import './NowSection.css';
 
@@ -10,14 +10,14 @@ class NowSection extends Component {
         <Container>
           <Row>
             <Col xs="5">
-              <h1>Let's do it!</h1>
-              <hr className="my-2" />
-              <p className="lead">These are a few of my favorite things.</p>
+              <div className="do-it">
+                <h1>Let's do this!</h1>
+                <hr className="my-sm-3 bounce" />
+                <h3 className="subtitle">These are a few of my favorite things.</h3>
+              </div>
             </Col>
             <Col xs="7">
-              <div className="NowSection-vcenter">
-                <img className="img-fluid" src={cloud} alt="tech word cloud" />
-              </div>
+              <img className="img-fluid" src={cloud} alt="tech word cloud" />
             </Col>
           </Row>
         </Container>

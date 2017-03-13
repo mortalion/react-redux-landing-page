@@ -10,71 +10,76 @@ class RolesSection extends Component {
   render() {
     return (
       <section id="roles" className="RolesSection">
-        <div class="section-content">
-  				<Container>
-  					<h3>Roles I'm happy (and qualifed) to perform</h3>
-  					<p>Illustrated with paintings from my Haitian Art collection.</p>
-  					<Row>
-
-  						<Col xs="6" sm="4">
+				<Container>
+          <Row>
+            <Col>
+              <h1>Roles I'm prepared to perform</h1>
+    					<h6>Illustrated with paintings from my Haitian Art collection.</h6>
+            </Col>
+          </Row>
+					<Row>
+						<Col>
   							<Card>
-									<CardBlock>
-										<CardTitle>Solution Architect</CardTitle>
-										<CardSubtitle className="Roles-CardSubtitle">
-                      Lean toward Isomorphic JavaScript
-                    </CardSubtitle>
-									</CardBlock>
-									<CardImg className="img-fluid" src={architect} alt="chalkboard" />
-									<CardBlock>
-										<CardText className="Roles-CardText">
+  								<CardBlock>
+  									<CardTitle>Solution Architect</CardTitle>
+  									<CardSubtitle>Lean toward Isomorphic JavaScript</CardSubtitle>
+  								</CardBlock>
+  								<CardImg className="img-fluid" src={architect} alt="architect" />
+  								<CardBlock>
+  									<CardText>
                       <strong><em>Isomorphic JavaScript:</em></strong> Tech-speak for a
                       solution that uses JavaScript on both the front and back ends.
                       Today, I really like permutations of React on the client and
                       Node.js on the server. Using GraphQL for data access makes me smile.
                     </CardText>
-									</CardBlock>
-								</Card>
+                    <Button tag="a" color="success" size="large"
+                      href="http://iartx.com/armand-gesner.html" target="_blank">
+                      Artist's Biography
+                    </Button>
+  								</CardBlock>
+  							</Card>
               </Col>
-
-              <Col xs="6" sm="4">
+              <Col>
   							<Card>
-									<CardBlock>
-										<CardTitle>Technical Lead</CardTitle>
-										<CardSubtitle className="Roles-CardSubtitle">
-                      Geographically-dispersed teams
-                    </CardSubtitle>
-									</CardBlock>
-									<CardImg className="img-fluid" src={leader} alt="chalkboard" />
-									<CardBlock>
-										<CardText className="Roles-CardText">
+  								<CardBlock>
+  									<CardTitle>Technical Lead</CardTitle>
+  									<CardSubtitle>Geographically-dispersed teams</CardSubtitle>
+  								</CardBlock>
+  								<CardImg className="img-fluid" src={leader} alt="lead" />
+  								<CardBlock>
+  									<CardText>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
                       cum quo itaque qui perferendis.
                     </CardText>
-									</CardBlock>
-								</Card>
+                    <Button tag="a" color="success" size="large"
+                      href="http://iartx.com/auguste-toussaint.html" target="_blank">
+                      Artist's Biography
+                    </Button>
+  								</CardBlock>
+  							</Card>
               </Col>
-
-              <Col sm="4">
+              <Col>
   							<Card>
-									<CardBlock>
-										<CardTitle>Senior Developer</CardTitle>
-										<CardSubtitle className="Roles-CardSubtitle">
-                      Full-stack. Front. Middle. Back.
-                    </CardSubtitle>
-									</CardBlock>
-									<CardImg className="img-fluid" src={soldier} alt="chalkboard" />
-									<CardBlock>
-										<CardText className="Roles-CardText">
+  								<CardBlock>
+  									<CardTitle>Senior Developer</CardTitle>
+  									<CardSubtitle>Full-stack. Front. Middle. Back.</CardSubtitle>
+  								</CardBlock>
+  								<CardImg className="img-fluid" src={soldier} alt="developer" />
+  								<CardBlock>
+  									<CardText>
                       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima
-                      cum quo itaque qui perferendis.
+                      cum quo itaque consectetur adipisicing elit qui perferendis.
                     </CardText>
-									</CardBlock>
-								</Card>
-              </Col>
+                    <Button tag="a" color="success" size="large"
+                      href="http://iartx.com/zephirin-frantz.html" target="_blank">
+                      Artist's Biography
+                    </Button>
+  								</CardBlock>
+  							</Card>
 
-  					</Row>
-  				</Container>
-  			</div>
+            </Col>
+					</Row>
+				</Container>
       </section>
     );
   }

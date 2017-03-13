@@ -1,17 +1,32 @@
 .NowSection {
   text-align: right;
-  display: inline-block;
-  vertical-align: middle;
+  .do-it {
+    padding-top: 20%;
+    hr {
+      margin-right: -2rem;
+      height: .5rem;
+      color: #333;
+      background: #333;
+      font-size: 0;
+      border: 0;
+    }
+    .bounce {
+      animation: bounce 20s infinite;
+    }
+    .subtitle {
+      padding-left: 20%;
+    }
+  }
 }
 
-.NowSection-vcenter {
-  height: 100%;
-  //width: 100%;
-  //display: inline-block;
-  //vertical-align: middle;
-  //float: none; ;
-  //display: flex;
-  //align-items: center;
-  //justify-content: center;
-  //flex-direction: row;
+@keyframes bounce {
+	0%, 2%, 5%, 8%, 100% {
+    transform: translateX(0);
+  }
+	4% {
+    transform: translateX(-30px);
+  }
+  6% {
+    transform: translateX(-15px);
+  }
 }

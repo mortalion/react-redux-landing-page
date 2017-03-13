@@ -1,12 +1,12 @@
 .Header {
+  width: 100%;
+  max-width: 100%;
   min-height: 80px;
   max-height: 80px;
-  color: gray;
-}
-
-.Header-logo {
-  animation: Header-logo-spin infinite 20s linear;
-  height: 60px;
+  .Header-logo {
+    animation: Header-logo-spin infinite 20s linear;
+    height: 40px;
+  }
 }
 
 @keyframes Header-logo-spin {

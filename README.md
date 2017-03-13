@@ -1,4 +1,4 @@
-# my-react-bootstrap4-resume
+# react-bootstrap4-resume
 
 Virtually all of the projects of any significant size that I've worked on over the past six years are not publicly available for viewing, making it impossible for me to point to them as examples of my solution architecting and coding skills. That's a result of both non-disclosure agreements and having developed internal sites and tools for clients in the healthcare and pharmacy domains.
 

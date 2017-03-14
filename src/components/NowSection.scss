@@ -1,32 +1,35 @@
 .NowSection {
   text-align: right;
+  padding-bottom: 40px;
   .do-it {
-    padding-top: 20%;
-    hr {
-      margin-right: -2rem;
-      height: .5rem;
-      color: #333;
-      background: #333;
-      font-size: 0;
-      border: 0;
+    padding-top: 80px;
+    transform: scale(1,1);
+    .long-arrow {
+      margin-top: -30px;
+      margin-right: -35px;
+      color: #f9831b;
     }
     .bounce {
-      animation: bounce 20s infinite;
+      animation: bounce 15s infinite;
     }
     .subtitle {
-      padding-left: 20%;
+      margin-top: -20px;
+      padding-left: 10%;
     }
+  }
+  .cloud {
   }
 }
 
 @keyframes bounce {
 	0%, 2%, 5%, 8%, 100% {
-    transform: translateX(0);
+    transform: scale(1.5,1);
+    transform-origin: right;
   }
 	4% {
-    transform: translateX(-30px);
+    transform: translateX(-80px);
   }
   6% {
-    transform: translateX(-15px);
+    transform: translateX(-50px);
   }
 }

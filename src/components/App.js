@@ -4,6 +4,7 @@ import NowSection from './NowSection';
 import RolesSection from './RolesSection';
 import ThenSection from './ThenSection';
 import ClientsSection from './ClientsSection';
+import AboutSection from './AboutSection';
 import Footer from './Footer';
 
 class App extends Component {
@@ -15,6 +16,7 @@ class App extends Component {
         <RolesSection />
         <ThenSection />
         <ClientsSection />
+        <AboutSection />
         <Footer />
       </div>
     );

@@ -1,4 +1,7 @@
 .RolesSection {
-  border-top: 1px solid black;
-  margin-top: 0;
+  padding-left: 10px;
+  padding-right: 10px;
+  .col-md-4 {
+    padding: 10px;
+  }
 }

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import foundation from '../assets/foundation.jpeg';
+import foundation from '../assets/images/foundation.jpeg';
 import './ThenSection.css';
 
 class ThenSection extends Component {

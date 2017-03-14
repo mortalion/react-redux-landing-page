@@ -1,6 +1,18 @@
 .ClientsSection {
-  width: 100%;
+  //width: 100%;
+  text-align: center;
+  h6 {
+    margin-top: 10px;
+    margin-bottom: -10px;
+  }
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
   .client_logo {
-    padding: 1rem 1.5rem;
+    padding: 10px;
+    .soften-black {
+      opacity: .85;
+    }
   }
 }

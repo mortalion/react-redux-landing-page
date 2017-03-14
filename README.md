@@ -4,7 +4,7 @@ Virtually all of the projects of any significant size that I've worked on over t
 
 This project is intended to alleviate that problem a bit. It allows me to demonstrate the result--and share the code--of my new (in March 2017) resume website. In it, I employ some of the technologies I most enjoy working with, beginning with JavaScript ES2015 and React.
 
-##Setting up the project
+## Setting up the project
 
 This project was seeded with [Create React App](https://github.com/facebookincubator/create-react-app). That provided a basic React application skeleton, including Babel to transpile ES2015 JavaScript to ES5 and Webpack pre-configured to manage both development and production builds. Also available in this seed project are a number of packages that the Facebook Team has found useful. I'm not sure how I ever lived without [Autoprefixer](https://github.com/postcss/autoprefixer). It allows me to write my CSS rules without worrying about vendor prefixes, then--when Webpack builds the project--the appropriate vendor prefixes are automatically inserted into the minified CSS. Very cool!
 
@@ -16,20 +16,24 @@ With Bootstrap at Alpha 6, I wouldn't yet use it on a client project, but I'm ve
 
 Font Awesome is awesome. With React, I like the [react-fontawsome](https://github.com/danawoodman/react-fontawesome) package. It provides the Font Awesome icons as React components, making them very easy to use. The package does not include the Font Awesome CSS or fonts themselves; they needed to be downloaded and included in the project.
 
-##Third party offerings and code used the project
+
+## Third party offerings and code used the project
 
 The tech stack word cloud seen in the top section was created at tagul.com.
 
 Any images used that were not my own were licensed from Adobe Stock.
 
-For the bouncing arrow, I modified code found at http://codepen.io/anon/pen/ByZRyX.
 
-##Tricks and Tips
+## Tricks and Tips
 
 There's a great description of Isomorphic JavaScript at http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/.
+
+There's an excellent discussion of migrating from Bootstrap 3 to Bootstrap 4 at https://v4-alpha.getbootstrap.com/migration/. It includes a good descriptions of the enhancements and new features found in Bootstrap 4.
 
 There's a useful article about responsive font sizing at http://codeitdown.com/responsive-font-size-css/.
 
 I vertically positioned the client logo images by increasing or shrinking their canvas height in Adobe Photoshop. With Webpack automatically rebuilding on saves, I could rapidly visually tweak the logo positions in their rows. That method also saved the time and lines of styling code that doing it in CSS would have cost.
 
 Here's a fix for a case where transform: scale doesn't work in Chrome and Safari: http://stackoverflow.com/questions/25372315/transform-scale-property-not-working-in-chrome-safari.
+
+A couple of days into coding, I discovered that [reactstrap](https://github.com/reactstrap/reactstrap), the package I'm using to get Bootstrap 4 components in React, does not yet provide the Carousel. I wanted a Carousel in my About section, so I turned to [react-bootstrap](https://react-bootstrap.github.io/), the package that the Facebook team uses to get Bootstrap 3 components in React. Then, to use Bootstrap 3's Carousel only in the AboutSection, I identified and inserted about 250 lines of Bootstrap 3 css styling for its carosuel class into my AboutSection.scss file. It works! I have a Bootstrap 4 site with one section using a Bootstrap 3 component!

@@ -9,7 +9,7 @@ class BricksList extends Component {
   renderList() {
 		return this.props.technologies.map((technology) => {
 			return (
-        <Button className="brick" outline size="lg">
+        <Button className="brick" outline>
           {technology.name}
         </Button>
 			);

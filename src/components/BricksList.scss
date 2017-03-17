@@ -3,4 +3,17 @@
   flex-direction: row;
   flex-wrap: wrap-reverse;
   justify-content: flex-start;
+  .brick {
+
+    @media (min-width: 576px) {
+      padding: 10px;
+      font-size: 1rem;
+      border-radius: 10px;
+    }
+    /*@media (min-width: 768px) {}
+    @media (min-width: 992px) {}
+    @media (min-width: 1200px) {}*/
+
+  }
+
 }

@@ -13,8 +13,8 @@ class App extends Component {
       <div>
         <Header />
         <NowSection />
-        <RolesSection />
         <ThenSection />
+        <RolesSection />
         <ClientsSection />
         <AboutSection />
         <Footer />

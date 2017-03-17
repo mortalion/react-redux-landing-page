@@ -32,6 +32,20 @@ body {
     line-height: 1.2rem;
     color: darkgray;
   }
+  /* Compensate for fixed header when jumping to a section */
+  section {
+    padding-top: 90px;
+    margin-top: -90px;
+    .container {
+      width: 100%;
+      padding: 0;
+      margin: 10px 0;
+      .row {
+        padding: 0;
+        margin: 10px 0;
+      }
+    }
+  }
   // <CardText> is a <p>
   p {
     font-size: 1rem;
@@ -39,21 +53,6 @@ body {
   }
 }
 
-/* Compensate for fixed header's height when jumping to a section */
-section {
-  padding-top: 80px;
-  margin-top: -80px;
-}
-
-.container {
-  width: 100%;
-  padding: 0;
-  margin: 10px 0;
-  .row {
-    padding: 0;
-    margin: 10px 0;
-  }
-}
 
 .headings {
   //position: absolute;

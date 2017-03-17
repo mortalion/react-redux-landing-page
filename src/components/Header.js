@@ -24,18 +24,21 @@ class Header extends Component {
       <div className="Header">
         <Navbar color="faded" light toggleable fixed="top">
           <NavbarToggler right onClick={this.toggle} />
-          <img src={logo} className="Header-logo" alt="logo" />
-          <NavbarBrand href="/">Patrick Jamieson</NavbarBrand>
+          <img src={logo} className="logo" alt="logo" />
+          <div className="patrick">
+            <p className="name">Patrick Jamieson</p>
+            <p className="title">Senior Full-Stack Developer</p>
+          </div>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>
-                <NavLink href="#now">Skills</NavLink>
+                <NavLink href="#now">Now</NavLink>
+              </NavItem>
+              <NavItem>
+                <NavLink href="#then">Then</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#roles">Roles</NavLink>
-              </NavItem>
-              <NavItem>
-                <NavLink href="#then">Foundation</NavLink>
               </NavItem>
               <NavItem>
                 <NavLink href="#clients">Clients</NavLink>

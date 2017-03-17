@@ -22,7 +22,7 @@ class RolesSection extends Component {
 							<Card>
 								<CardBlock>
 									<CardTitle>Solution Architect</CardTitle>
-									<CardSubtitle>Lean toward Isomorphic JavaScript</CardSubtitle>
+									<CardSubtitle>Favor Isomorphic JavaScript</CardSubtitle>
 								</CardBlock>
 								<CardImg className="img-fluid" src={architect} alt="architect" />
 								<CardBlock>
@@ -69,7 +69,7 @@ class RolesSection extends Component {
 									<CardText>
                     <strong><em>A Good Soldier:</em></strong> I can carry the water
                     and hoe the hard rows while turning sows' ears into silk purses.
-                    Call it what you will, I buckle down and bring home the bacon.
+                    Whatever the metaphors, I buckle down and bring home the bacon.
                   </CardText>
                   <Button tag="a" color="success" size="large"
                     href="http://iartx.com/zephirin-frantz.html" target="_blank">

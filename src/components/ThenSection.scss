@@ -1,3 +1,23 @@
 .ThenSection {
-
+  position: relative;
+  .headline {
+    top: 140px;
+    left: 40px;
+    position: absolute;
+    h1 {
+      color: #daf7ae; // matches glove highlight color
+    }
+  }
+  .bricks-list {
+    bottom: 40px;
+    left: 40px;
+    clip-path: padding-box polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
+    //padding-right: 100px;
+    position: absolute;
+    .brick {
+      margin: 6px;
+      color: black; //#daf7ae
+      background-color: rgba(245, 245, 245, 0.7);
+    }
+  }
 }

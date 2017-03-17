@@ -1,7 +1,10 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import foundation from '../assets/images/foundation.jpeg';
+import patrick from '../assets/images/patrick-paris.jpg';
+import rebecca from '../assets/images/rebecca-upsalla.jpg';
+import ngu from '../assets/images/ngu-saigon.jpg';
+import hongkong from '../assets/images/hong-kong.jpg';
 
 import './AboutSection.css';
 
@@ -29,26 +32,37 @@ class AboutSection extends Component {
           direction={this.state.direction}
           onSelect={(i,e)=>this.handleSelect(i,e)}>
           <Carousel.Item>
-            <img src={foundation}/>
+            <img src={patrick} alt="patrick"/>
             <Carousel.Caption>
               <h3>First slide label</h3>
               <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
             </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
-            <img src={foundation}/>
+            <img src={rebecca} alt="rebecca"/>
             <Carousel.Caption>
               <h3>Second slide label</h3>
               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             </Carousel.Caption>
           </Carousel.Item>
+
           <Carousel.Item>
-            <img src={foundation}/>
+            <img src={hongkong} alt="hong-kong"/>
             <Carousel.Caption>
               <h3>Third slide label</h3>
               <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
             </Carousel.Caption>
           </Carousel.Item>
+
+          <Carousel.Item>
+            <img src={ngu} alt="ngu-saigon"/>
+            <Carousel.Caption>
+              <h3>Fourth slide label</h3>
+              <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+            </Carousel.Caption>
+          </Carousel.Item>
+
         </Carousel>
       </section>
     );

@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
 import foundation from '../assets/images/foundation.jpeg';
+import BricksList from './BricksList';
 import './ThenSection.css';
 
 class ThenSection extends Component {
+
   render() {
     return (
-      <section id="then" className="Then">
+      <section id="then" className="ThenSection">
         <img src={foundation} width="100%" alt="foundation" />
+        <div className="headline">
+          <h1>Been there. Done that.</h1>
+        </div>
+        <div className="bricks-list">
+          <BricksList />
+        </div>
       </section>
     );
   }

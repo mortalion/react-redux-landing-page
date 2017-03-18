@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import { Carousel } from 'react-bootstrap';
 
-import patrick from '../assets/images/patrick-paris.jpg';
-import rebecca from '../assets/images/rebecca-upsalla.jpg';
-import ngu from '../assets/images/ngu-saigon.jpg';
-import hongkong from '../assets/images/hong-kong.jpg';
+import patrick from '../assets/images/ngu-saigon-3.jpg';
+import rebecca from '../assets/images/ngu-saigon-5.jpg';
+import hongkong from '../assets/images/ngu-saigon-8.jpg';
+import ngu from '../assets/images/ngu-saigon-10.jpg';
 
 import './AboutSection.css';
 

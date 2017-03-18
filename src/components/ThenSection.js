@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import foundation from '../assets/images/foundation.jpeg';
+import foundation from '../assets/images/foundation-10.jpg';
 import BricksList from './BricksList';
 import './ThenSection.css';
 

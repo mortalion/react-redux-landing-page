@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Button, Card, CardBlock, CardImg, CardSubtitle,
   CardText, CardTitle, Col, Container, Row } from 'reactstrap';
-import architect from '../assets/images/architect.jpg';
-import leader from '../assets/images/leader.jpg';
-import soldier from '../assets/images/soldier.jpg';
+import architect from '../assets/images/architect-8.jpg';
+import leader from '../assets/images/leader-8.jpg';
+import soldier from '../assets/images/soldier-8.jpg';
 import './RolesSection.css';
 
 class RolesSection extends Component {

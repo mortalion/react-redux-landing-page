@@ -4,15 +4,22 @@
   flex-wrap: wrap-reverse;
   justify-content: flex-start;
   .brick {
-
+    margin: 50px;
+    padding: 3px;
+    font-size: .5rem;
+    border-radius: 3px;
     @media (min-width: 576px) {
+      padding: 8px;
+      font-size: .8rem;
+      border-radius: 8px;
+    }
+    @media (min-width: 768px) {
       padding: 10px;
       font-size: 1rem;
       border-radius: 10px;
     }
-    /*@media (min-width: 768px) {}
     @media (min-width: 992px) {}
-    @media (min-width: 1200px) {}*/
+    @media (min-width: 1200px) {}
 
   }
 

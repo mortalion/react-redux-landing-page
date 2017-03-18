@@ -25,10 +25,12 @@ class Header extends Component {
         <Navbar color="faded" light toggleable fixed="top">
           <NavbarToggler right onClick={this.toggle} />
           <img src={logo} className="logo" alt="logo" />
-          <div className="patrick">
-            <p className="name">Patrick Jamieson</p>
-            <p className="title">Senior Full-Stack Developer</p>
-          </div>
+          <NavbarBrand href="/">
+            <div className="patrick">
+              <p className="name">Patrick Jamieson</p>
+              <p className="title">Senior Full-Stack Developer</p>
+            </div>
+          </NavbarBrand>
           <Collapse isOpen={this.state.isOpen} navbar>
             <Nav className="ml-auto" navbar>
               <NavItem>

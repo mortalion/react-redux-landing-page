@@ -9,8 +9,6 @@
       padding-right: 10px;
     }
     @media (min-width: 768px) {
-      padding-left: 10px;
-      padding-right: 10px;
       .col-md-4 {
         padding: 3px;
       }
@@ -30,17 +28,20 @@
       font-size: 1.5rem;
       line-height: 1.7rem;
       @media (min-width: 576px) {
-        padding-bottom: 6px;
         font-size: 2rem;
+        line-height: 2.2rem;
       }
       @media (min-width: 768px) {
-        font-size: 2rem;
+        font-size: 2.7rem;
+        line-height: 3rem;
       }
       @media (min-width: 992px) {
-        font-size: 2.5rem;
+        font-size: 3rem; //2.5
+        line-height: 2.9rem;
       }
       @media (min-width: 1200px) {
         font-size: 3.5rem;
+        line-height: 2.9rem;
       }
     }
     // <CardTitle> is an <h4>
@@ -52,32 +53,37 @@
         line-height: 1.8rem;
       }
       @media (min-width: 768px) {
-        font-size: 1.35rem;
+        font-size: 2rem;
+        line-height: 2rem;
       }
       @media (min-width: 992px) {
-        font-size: 1.85rem;
+        font-size: 2.5rem;
+        line-height: 2.5rem;
       }
       @media (min-width: 1200px) {
-        //font-size: 3rem;
+        font-size: 3rem;
+        line-height: 3rem;
       }
     }
     // <CardSubtitle> is an <h6>
     h6 {
       font-size: 1.1rem;
-      font-style: italic;
       line-height: 1.2rem;
-      color: darkgray;
       @media (min-width: 576px) {
         font-size: 1.3rem;
+        line-height: 1.4rem;
       }
       @media (min-width: 768px) {
-        //font-size: 2.1rem;
+        font-size: 1.5rem;
+        line-height: 1.6rem;
       }
       @media (min-width: 992px) {
-        //font-size: 2.75rem;
+        font-size: 2.75rem;
+        line-height: 2.9rem;
       }
       @media (min-width: 1200px) {
-        //font-size: 3rem;
+        font-size: 3rem;
+        line-height: 2.9rem;
       }
     }
 
@@ -86,8 +92,20 @@
       font-size: 1.1rem;
       line-height: 1.25rem;
       @media (min-width: 576px) {
-        font-size: 1.25rem;
-        line-height: 1.4rem;
+        //font-size: 1.15rem;
+        //line-height: 1.4rem;
+      }
+      @media (min-width: 768px) {
+        //font-size: 1.1rem;
+        //line-height: 1.6rem;
+      }
+      @media (min-width: 992px) {
+        font-size: 2.75rem;
+        line-height: 2.9rem;
+      }
+      @media (min-width: 1200px) {
+        font-size: 3rem;
+        line-height: 2.9rem;
       }
     }
   }

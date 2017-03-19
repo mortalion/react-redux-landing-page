@@ -47,9 +47,9 @@ class RolesSection extends Component {
 								<CardImg className="img-fluid" src={leader} alt="lead" />
 								<CardBlock>
 									<CardText>
-                    <strong><em>Hands-On Leadership:</em></strong> I'll shepherd the
-                    flock, and keep things rolling and on-track, but I've got to have my
-                    hands in the code. I've been a manager; that's not for me.
+                    <strong><em>Hands-On Leadership:</em></strong> I'll mentor and shepherd the
+                    flock, keep things moving and on-track. But I've got to have my
+                    paws in the code. I've been a manager; I learned that's not for me.
                   </CardText>
                   <Button tag="a" color="success" size="large"
                     href="http://iartx.com/auguste-toussaint.html" target="_blank">
@@ -69,7 +69,7 @@ class RolesSection extends Component {
 									<CardText>
                     <strong><em>A Good Soldier:</em></strong> I can carry the water
                     and hoe the hard rows while turning sows' ears into silk purses.
-                    Whatever metaphor tickles you fancy, I buckle down and bring home the bacon.
+                    I buckle down and bring home the bacon. And I eat up metaphors.
                   </CardText>
                   <Button tag="a" color="success" size="large"
                     href="http://iartx.com/zephirin-frantz.html" target="_blank">

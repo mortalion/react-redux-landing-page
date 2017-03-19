@@ -3,18 +3,18 @@
   padding-bottom: 20px;
   .headline {
     position: absolute;
-    top: 105px;
+    top: 100px;
     left: 10px;
     @media (min-width: 576px) {
-      top: 115px;
+      top: 105px;
       left: 20px;
     }
     @media (min-width: 768px) {
-      top: 130px;
+      top: 110px;
       left: 30px;
     }
     @media (min-width: 992px) {
-      top: 140px;
+      top: 120px;
       left: 30px;
     }
     @media (min-width: 1200px) {
@@ -23,46 +23,67 @@
     }
     h1 {
       color: #daf7ae; // matches glove highlight color
-      //text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
-      font-size: 1.15rem;
+      font-size: 1.5rem;
       @media (min-width: 576px) {
-        font-size: 1.6rem;
+        font-size: 2.2rem;
       }
       @media (min-width: 768px) {
-        font-size: 2.1rem;
+        font-size: 2.8rem;
       }
       @media (min-width: 992px) {
-        font-size: 3rem;
+        font-size: 3.5rem;
       }
       @media (min-width: 1200px) {
         font-size: 3.5rem;
+      }
+      .done-that {
+        width: 100%;
+        position: absolute;
+        top: 1.5rem;
+        left: 60px;
+        @media (min-width: 576px) {
+          top: 2.2rem;
+          left: 90px;
+        }
+        @media (min-width: 768px) {
+          top: 2.8rem;
+          left: 130px;
+        }
+        @media (min-width: 992px) {
+          top: 3.5rem;
+          left: 180px;
+        }
+        @media (min-width: 1200px) {
+          top: 40px;
+          left: 100px;
+        }
       }
     }
   }
   .bricks-list {
     position: absolute;
-    bottom: 40px;
+    bottom: 20px;
     left: 10px;
-    padding-right: 10px;
+    padding-right: 4%;
     @media (min-width: 576px) {
-      bottom: 40px;
+      //bottom: 40px;
       left: 20px;
-      padding-right: 20px;
+      //padding-right: 20px;
     }
     @media (min-width: 768px) {
-      bottom: 50px;
+      //bottom: 50px;
       left: 30px;
-      padding-right: 30px;
+      //padding-right: 30px;
     }
     @media (min-width: 992px) {
-      bottom: 50px;
+      //bottom: 50px;
       left: 30px;
-      padding-right: 30px;
+      //padding-right: 30px;
     }
     @media (min-width: 1200px) {
-      bottom: 40px;
-      left: 30px;
-      padding-right: 30px;
+      //bottom: 40px;
+      left: 40px;
+      //padding-right: 30px;
     }
     .brick {
       margin: 2px;

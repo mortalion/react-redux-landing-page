@@ -10,7 +10,7 @@ class ThenSection extends Component {
       <section id="then" className="ThenSection">
         <img src={foundation} width="100%" alt="foundation" />
         <div className="headline">
-          <h1>Been there. Done that.</h1>
+          <h1>Been there.<span className="done-that">Done that.</span></h1>
         </div>
         <div className="bricks-list">
           <BricksList />

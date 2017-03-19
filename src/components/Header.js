@@ -24,7 +24,6 @@ class Header extends Component {
       <div className="Header">
         <Navbar color="faded" light toggleable fixed="top">
           <NavbarToggler right onClick={this.toggle} />
-          <img src={logo} className="logo" alt="logo" />
           <NavbarBrand href="/">
             <div className="patrick">
               <p className="name">Patrick Jamieson</p>

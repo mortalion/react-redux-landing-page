@@ -69,7 +69,7 @@ class RolesSection extends Component {
 									<CardText>
                     <strong><em>A Good Soldier:</em></strong> I can carry the water
                     and hoe the hard rows while turning sows' ears into silk purses.
-                    Whatever the metaphors, I buckle down and bring home the bacon.
+                    Whatever metaphor tickles you fancy, I buckle down and bring home the bacon.
                   </CardText>
                   <Button tag="a" color="success" size="large"
                     href="http://iartx.com/zephirin-frantz.html" target="_blank">

@@ -2,25 +2,84 @@
   position: relative;
   padding-bottom: 20px;
   .headline {
-    top: 140px;
-    left: 40px;
     position: absolute;
+    top: 105px;
+    left: 10px;
+    @media (min-width: 576px) {
+      top: 115px;
+      left: 20px;
+    }
+    @media (min-width: 768px) {
+      top: 130px;
+      left: 30px;
+    }
+    @media (min-width: 992px) {
+      top: 140px;
+      left: 30px;
+    }
+    @media (min-width: 1200px) {
+      top: 150px;
+      left: 40px;
+    }
     h1 {
       color: #daf7ae; // matches glove highlight color
+      //text-shadow: -1px 0 #333, 0 1px #333, 1px 0 #333, 0 -1px #333;
+      font-size: 1.15rem;
+      @media (min-width: 576px) {
+        font-size: 1.6rem;
+      }
       @media (min-width: 768px) {
-        //font-size: 2.5rem;
+        font-size: 2.1rem;
+      }
+      @media (min-width: 992px) {
+        font-size: 3rem;
+      }
+      @media (min-width: 1200px) {
+        font-size: 3.5rem;
       }
     }
   }
   .bricks-list {
-    bottom: 40px;
-    left: 40px;
-    padding-right: 40px;
     position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding-right: 10px;
+    @media (min-width: 576px) {
+      bottom: 40px;
+      left: 20px;
+      padding-right: 20px;
+    }
+    @media (min-width: 768px) {
+      bottom: 50px;
+      left: 30px;
+      padding-right: 30px;
+    }
+    @media (min-width: 992px) {
+      bottom: 50px;
+      left: 30px;
+      padding-right: 30px;
+    }
+    @media (min-width: 1200px) {
+      bottom: 40px;
+      left: 30px;
+      padding-right: 30px;
+    }
     .brick {
-      margin: 6px;
+      margin: 2px;
       color: black; //#daf7ae
       background-color: rgba(245, 245, 245, 0.7);
+      @media (min-width: 576px) {
+        margin: 4px;
+      }
+      @media (min-width: 768px) {
+        margin: 4px;
+      }
+      @media (min-width: 992px) {
+        margin: 4px;
+      }
+      @media (min-width: 1200px) {
+        margin: 4px;
+      }
     }
   }
 }

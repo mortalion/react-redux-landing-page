@@ -3,10 +3,6 @@
   max-width: 100%;
   min-height: 80px;
   max-height: 80px;
-  .logo {
-    animation: Header-logo-spin infinite 20s linear;
-    height: 60px;
-  }
   .patrick {
     margin-top: 1rem;
     width: 100%;
@@ -20,9 +16,4 @@
       color: #f9831b;
     }
   }
-}
-
-@keyframes Header-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
 }

@@ -2,8 +2,39 @@
   text-align: right;
   padding-bottom: 20px;
   .do-it {
-    padding-top: 80px;
     transform: scale(1,1);
+    height: 0;
+    visibility: hidden;
+    @media (min-width: 576px) {
+      visibility: visible;
+      padding-top: 30px;
+    }
+    @media (min-width: 768px) {
+      padding-top: 30px;
+    }
+    @media (min-width: 992px) {
+      padding-top: 80px;
+    }
+    @media (min-width: 1200px) {
+      //font-size: 3rem;
+    }
+    h1 {
+      margin-bottom: 10px;
+      @media (min-width: 576px) {
+        padding-left: 0;
+        font-size: 2rem;
+      }
+      @media (min-width: 768px) {
+        padding-left: 0;
+        font-size: 2.6rem;
+      }
+      @media (min-width: 992px) {
+        padding-left: 20px;
+      }
+      @media (min-width: 1200px) {
+        //font-size: 3rem;
+      }
+    }
     .long-arrow {
       margin-top: -30px;
       margin-right: -35px;
@@ -12,9 +43,22 @@
     .bounce {
       animation: bounce 15s infinite;
     }
-    .subtitle {
+    h3 {
       margin-top: -20px;
-      padding-left: 20%;
+      @media (min-width: 576px) {
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+      }
+      @media (min-width: 768px) {
+        font-size: 1.8rem;
+        padding-left: 0;
+      }
+      @media (min-width: 992px) {
+        padding-left: 20%;
+      }
+      @media (min-width: 1200px) {
+        //font-size: 3rem;
+      }
     }
   }
   .cloud {

@@ -10,14 +10,14 @@ class NowSection extends Component {
       <section id="now" className="NowSection">
         <Container>
           <Row>
-            <Col xs="4">
+            <Col sm="4" xs="12">
               <div className="do-it">
                 <h1>Let's do it!</h1>
                 <FontAwesome name="long-arrow-right" className="long-arrow bounce" size="5x" />
                 <h3 className="subtitle">These are a few of my favorite things.</h3>
               </div>
             </Col>
-            <Col xs="8">
+            <Col sm="8" xs="12">
               <div className="cloud">
                 <img className="img-fluid" src={cloud} alt="tech word cloud" />
               </div>

@@ -1,26 +1,53 @@
 .Footer {
-  padding-top: 2rem;
+  padding: 1rem 0 0 0;
   background-color: #333;
+  .footer-nav {
+    flex-direction: row;
+  }
   h6 {
+    padding-top: 1rem;
     color: lightgray;
   }
   a {
-    padding: 4px;
+    padding: 0 1.5rem 1rem 0;
     color: lightgray;
     &:hover {
       color: darkgray;
     }
   }
   p {
-    margin-bottom: .5rem;
     font-size: .8rem;
+    line-height: 1rem;
     color: darkgray;
+    &.copyright {
+      margin-top: -.75rem;
+    }
   }
-  .footer-icon {
+  .social-icon {
+    margin-right: -.5rem;
     color: lightgray;
-    size: 4x;
     &:hover {
       color: darkgray;
+    }
+  }
+  .wrapper {
+    padding: .3rem 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    .left {
+      flex: 0;
+      .name {
+        font-size: 1rem;
+        line-height: .2rem;
+      }
+    }
+    .right {
+      flex: 1;
+      .domain {
+        font-size: 1rem;
+        line-height: .2rem;
+      }
     }
   }
 }

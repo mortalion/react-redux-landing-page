@@ -1,12 +1,12 @@
 .NowSection {
-  text-align: right;
-  padding-bottom: 20px;
+  //padding-bottom: 20px;
   .do-it {
-    transform: scale(1,1);
     height: 0;
     visibility: hidden;
     @media (min-width: 576px) {
       visibility: visible;
+      text-align: right;
+      transform: scale(1,1);
       padding-top: 30px;
     }
     @media (min-width: 768px) {

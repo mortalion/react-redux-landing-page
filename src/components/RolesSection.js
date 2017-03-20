@@ -14,7 +14,9 @@ class RolesSection extends Component {
           <Row>
             <Col>
               <h1>Roles I'm prepared to perform</h1>
-    					<h6>Illustrated with paintings from my Haitian Art collection.</h6>
+    					<h6 className="subhead">
+                Illustrated with paintings from my Haitian Art collection.
+              </h6>
             </Col>
           </Row>
 					<Row>

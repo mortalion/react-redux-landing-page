@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import { Button, Card, CardBlock, CardImg, CardSubtitle,
-  CardText, CardTitle, Col, Container, Row } from 'reactstrap';
+import { Card, CardBlock, CardImg, CardSubtitle, CardText,
+  CardTitle, Col, Container, Row } from 'reactstrap';
 import architect from '../assets/images/architect-8.jpg';
 import leader from '../assets/images/leader-8.jpg';
 import soldier from '../assets/images/soldier-8.jpg';
@@ -33,10 +33,6 @@ class RolesSection extends Component {
                     like to employ JavaScript on both the front and back ends. That often
                     leads me to select React for the client and Node for the server.
                   </CardText>
-                  <Button tag="a" color="success" size="large"
-                    href="http://iartx.com/armand-gesner.html" target="_blank">
-                    Artist's Biography
-                  </Button>
 								</CardBlock>
 							</Card>
             </Col>
@@ -49,14 +45,10 @@ class RolesSection extends Component {
 								<CardImg className="img-fluid" src={leader} alt="lead" />
 								<CardBlock>
 									<CardText>
-                    <strong><em>Hands-On Leadership:</em></strong> I'll mentor and shepherd the
-                    flock, keep things moving and on-track. But I've got to have my
-                    paws in the code. I've been a manager; I learned that's not for me.
+                    <strong><em>Hands-On Leadership:</em></strong> I'll mentor and
+                    shepherd the flock, keep things moving and on-track. But I've got
+                    to have my paws in the code. I've been a manager; that's not for me.
                   </CardText>
-                  <Button tag="a" color="success" size="large"
-                    href="http://iartx.com/auguste-toussaint.html" target="_blank">
-                    Artist's Biography
-                  </Button>
 								</CardBlock>
 							</Card>
             </Col>
@@ -73,10 +65,6 @@ class RolesSection extends Component {
                     and hoe the hard rows while turning sows' ears into silk purses.
                     I buckle down and bring home the bacon. And I eat up metaphors.
                   </CardText>
-                  <Button tag="a" color="success" size="large"
-                    href="http://iartx.com/zephirin-frantz.html" target="_blank">
-                    Artist's Biography
-                  </Button>
 								</CardBlock>
 							</Card>
             </Col>

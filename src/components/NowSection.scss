@@ -1,5 +1,4 @@
 .NowSection {
-  //padding-bottom: 20px;
   .do-it {
     height: 0;
     visibility: hidden;
@@ -7,61 +6,68 @@
       visibility: visible;
       text-align: right;
       transform: scale(1,1);
-      padding-top: 30px;
+      font-size: 1.2rem;
+      padding-top: 40px;
     }
     @media (min-width: 768px) {
-      padding-top: 30px;
+      font-size: 1.5rem;
     }
     @media (min-width: 992px) {
-      padding-top: 80px;
+      font-size: 2rem;
+      padding-top: 60px;
     }
     @media (min-width: 1200px) {
-      //font-size: 3rem;
+      font-size: 3rem;
+      padding-top: 85px;
     }
     h1 {
-      margin-bottom: 10px;
-      @media (min-width: 576px) {
-        padding-left: 0;
-        font-size: 2rem;
-      }
+      margin-bottom: -25px;
+      font-size: 2rem;
       @media (min-width: 768px) {
-        padding-left: 0;
-        font-size: 2.6rem;
+        margin-bottom: -30px;
+        font-size: 2.5rem;
       }
       @media (min-width: 992px) {
-        padding-left: 20px;
+        margin-bottom: -40px;
+        font-size: 3.5rem;
       }
       @media (min-width: 1200px) {
-        //font-size: 3rem;
+        margin-bottom: -65px;
+        font-size: 4.5rem;
       }
     }
     .long-arrow {
-      margin-top: -30px;
       margin-right: -35px;
-      color: #f9831b;
-    }
-    .bounce {
-      animation: bounce 15s infinite;
+      color: #f9831b; // mongodb orange (from word cloud)
+      &.bounce {
+        animation: bounce 15s infinite;
+      }
     }
     h3 {
-      margin-top: -20px;
-      @media (min-width: 576px) {
-        font-size: 1.4rem;
-        line-height: 1.6rem;
-      }
+      font-style: italic;
+      color: darkgray;
+      margin-top: -25px;
+      font-size: 1.4rem;
+      line-height: 1.6rem;
+      padding-left: 15%;
       @media (min-width: 768px) {
+        margin-top: -30px;
         font-size: 1.8rem;
-        padding-left: 0;
+        line-height: 1.8rem;
+        padding-left: 10%;
       }
       @media (min-width: 992px) {
+        margin-top: -40px;
+        font-size: 2rem;
+        line-height: 2rem;
         padding-left: 20%;
       }
       @media (min-width: 1200px) {
-        //font-size: 3rem;
+        margin-top: -55px;
+        font-size: 3rem;
+        line-height: 3rem;
       }
     }
-  }
-  .cloud {
   }
 }
 

@@ -9,10 +9,13 @@
     color: lightgray;
   }
   a {
-    padding: 0 1.5rem 1rem 0;
+    padding: 0 1.2rem 1rem 0;
     color: lightgray;
     &:hover {
       color: darkgray;
+    }
+    @media (min-width: 360px) {
+      padding: 0 1.6rem 1rem 0;
     }
   }
   p {
@@ -24,7 +27,7 @@
     }
   }
   .social-icon {
-    margin-right: -.5rem;
+    margin-right: -.15rem;
     color: lightgray;
     &:hover {
       color: darkgray;
@@ -32,18 +35,21 @@
   }
   .wrapper {
     padding: .3rem 0;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
+    //display: flex;
+    //flex-direction: row;
+    //justify-content: flex-start;
+    margin: 0;
     .left {
-      flex: 0;
+      //flex: 0;
+      float:left;
       .name {
         font-size: 1rem;
         line-height: .2rem;
       }
     }
     .right {
-      flex: 1;
+      //flex: 1;
+      float: left;
       .domain {
         font-size: 1rem;
         line-height: .2rem;

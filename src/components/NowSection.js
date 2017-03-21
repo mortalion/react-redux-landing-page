@@ -14,7 +14,7 @@ class NowSection extends Component {
               <div className="do-it">
                 <h1>Let's do it!</h1>
                 <FontAwesome name="long-arrow-right" className="long-arrow bounce" size="5x" />
-                <h3 className="subtitle">These are a few of my favorite things.</h3>
+                <h3 className="subtitle">These are a few of my favorite things</h3>
               </div>
             </Col>
             <Col sm="8" xs="12">

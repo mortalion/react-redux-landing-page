@@ -2,12 +2,12 @@
   .do-it {
     height: 0;
     visibility: hidden;
-    @media (min-width: 576px) {
+    @media (min-width: 568px) {
       visibility: visible;
       text-align: right;
       transform: scale(1,1);
       font-size: 1.2rem;
-      padding-top: 40px;
+      padding-top: 30px;
     }
     @media (min-width: 768px) {
       font-size: 1.5rem;
@@ -48,13 +48,13 @@
       color: darkgray;
       margin-top: -25px;
       font-size: 1.4rem;
-      line-height: 1.6rem;
-      padding-left: 15%;
+      line-height: 1.5rem;
+      padding-left: 0;
       @media (min-width: 768px) {
         margin-top: -30px;
-        font-size: 1.8rem;
+        font-size: 1.7rem;
         line-height: 1.8rem;
-        padding-left: 10%;
+        padding-left: 5%;
       }
       @media (min-width: 992px) {
         margin-top: -40px;

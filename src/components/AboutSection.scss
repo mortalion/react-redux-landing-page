@@ -1,5 +1,191 @@
 .AboutSection {
-  .carousel-image {
-
+  .about-text {
+    position: absolute;
+    color: lightgray;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    background: rgba(0,0,0,0.7);
+    padding: .4rem;
+    bottom: 22%;
+    @media (min-width: 412px) {
+      padding: .8rem;
+      bottom: 18%;
+    }
+    @media (min-width: 568px) {
+      padding: .7rem;
+      bottom: 16%;
+    }
+    @media (min-width: 768px) {
+      padding: 1.1rem;
+      bottom: 14%;
+    }
+    @media (min-width: 992px) {
+      padding: 1.5rem;
+      bottom: 12%;
+    }
+    @media (min-width: 1200px) {
+      padding: 2rem;
+    }
+    p {
+      font-size: .5rem;
+      line-height: .6rem;
+      padding: 0;
+      margin: .3rem 0;
+      @media (min-width: 412px) {
+        font-size: .7rem;
+        line-height: .7rem;
+      }
+      @media (min-width: 568px) {
+        font-size: .8rem;
+        line-height: .85rem;
+        margin: .5rem 0;
+      }
+      @media (min-width: 768px) {
+        font-size: 1.3rem;
+        line-height: 1.4rem;
+        margin: 1rem 0;
+      }
+      @media (min-width: 992px) {
+        font-size: 1.4rem;
+        line-height: 1.5rem;
+        margin: 1.2rem 0;
+      }
+      @media (min-width: 1200px) {
+        font-size: 1.8rem;
+        line-height: 1.9rem;
+        margin: 1.5rem 0;
+      }
+      &.list-item {
+        color: white;
+        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.9);
+        margin: .3rem 0 .3rem .5rem;
+        @media (min-width: 768px) {
+          margin: .5rem 0 .5rem 1.5rem;
+        }
+        @media (min-width: 768px) {
+          font-size: 1.35rem;
+        }
+        @media (min-width: 992px) {
+          font-size: 1.5rem;
+          margin: .7rem 0 .7rem 1.5rem;
+        }
+        @media (min-width: 1200px) {
+          font-size: 2rem;
+          margin: 1rem 0 1rem 3rem;
+        }
+      }
+    }
+    h3 {
+      color: #bce16d; // matches glove color
+      font-size: 1rem;
+      @media (min-width: 412px) {
+        font-size: 1.2rem;
+      }
+      @media (min-width: 768px) {
+        font-size: 2rem;
+      }
+      @media (min-width: 992px) {
+        font-size: 2.2rem;
+      }
+      @media (min-width: 1200px) {
+        font-size: 3.5rem;
+      }
+    }
+    &.patrick {
+      width: 36%;
+      right: 12%;
+      @media (min-width: 412px) {
+        width: 41%;
+        right: 10%;
+      }
+      @media (min-width: 568px) {
+        width: 37%;
+      }
+      @media (min-width: 768px) {
+        width: 40%;
+        right: 12%;
+      }
+      @media (min-width: 992px) {
+        width: 38%;
+        right: 12%
+      }
+      @media (min-width: 1200px) {
+        width: 40%;
+      }
+    }
+    &.guide {
+      width: 42%;
+      left: 12%;
+      @media (min-width: 360px) {
+        width: 36%;
+      }
+      @media (min-width: 412px) {
+        width: 43%;
+        left: 10%;
+      }
+      @media (min-width: 768px) {
+        width: 42%;
+      }
+      @media (min-width: 992px) {
+        width: 34%;
+        left: 12%
+      }
+      @media (min-width: 1200px) {
+        width: 33%;
+      }
+    }
+    &.coolest-gig {
+      width: 40%;
+      left: 12%;
+      @media (min-width: 412px) {
+        width: 42%;
+        left: 10%;
+      }
+      @media (min-width: 768px) {
+        width: 40%;
+      }
+      @media (min-width: 992px) {
+        width: 54%;
+        bottom: 10%;
+        left: 12%;
+      }
+    }
+    &.bucket-list {
+      width: 40%;
+      left: 12%;
+      @media (min-width: 360px) {
+        width: 34%;
+      }
+      @media (min-width: 412px) {
+        width: 40%;
+        left: 10%;
+      }
+      @media (min-width: 768px) {
+        left: 12%;
+      }
+      @media (min-width: 992px) {
+        width: 35%;
+      }
+      @media (min-width: 1200px) {
+        width: 36%;
+      }
+    }
+  }
+  .photo-location {
+    position: absolute;
+    right: .5rem;
+    bottom: -1rem;
+    font-size: .5rem;
+    color: lightgray;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    @media (min-width: 768px) {
+      font-size: .8rem;
+      right: .8rem;
+      bottom: -.6rem;
+    }
+    @media (min-width: 1200px) {
+      font-size: 1.2rem;
+      right: 1.2rem;
+      bottom: -.2rem;
+    }
   }
 }

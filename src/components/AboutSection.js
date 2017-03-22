@@ -33,34 +33,64 @@ class AboutSection extends Component {
           onSelect={(i,e)=>this.handleSelect(i,e)}>
           <Carousel.Item>
             <img src={patrick} alt="patrick"/>
-            <Carousel.Caption>
-              <h6>I don't really have a halo</h6>
-              <p>Photo location: Musee du Louvre, Paris, France</p>
-            </Carousel.Caption>
+						<section className="about-text patrick">
+							<h3>About me</h3>
+							<p>I'm don't really have a halo; the sun here is backlighting my
+                 shiny dome. But I <em>do</em> have preferences:</p>
+              <p className="list-item">React over Angular</p>
+              <p className="list-item">MongoDB over MySQL</p>
+              <p className="list-item">AWS over Heroku</p>
+              <p className="list-item">Flip-Flops over Shoes</p>
+						</section>
+            <p className="photo-location">
+              Musee du Louvre, Paris, France
+            </p>
           </Carousel.Item>
 
           <Carousel.Item>
             <img src={brazil} alt="brazil"/>
-            <Carousel.Caption>
-              <h6>Sometimes you need a guide</h6>
-              <p>Photo location: Lençóis Maranhenses, Maranhão, Brasil</p>
-            </Carousel.Caption>
+            <section className="about-text guide">
+							<h3>Follow me</h3>
+							<p>Sometimes you need a guide. I have deep experience
+                in these domains:</p>
+                <p className="list-item">Print &amp; Digital Publishing</p>
+                <p className="list-item">Healthcare &amp; Pharma</p>
+                <p className="list-item">Advertising &amp; Retail</p>
+              <p>That said, I love learning new things.</p>
+						</section>
+            <p className="photo-location">
+              Lençóis Maranhenses, Maranhão, Brasil
+            </p>
           </Carousel.Item>
 
           <Carousel.Item>
             <img src={ngu} alt="ngu-saigon"/>
-            <Carousel.Caption>
-              <h6>My coolest gig ever</h6>
-              <p>Photo location: Ho Chi Minh City, Vietnam</p>
-            </Carousel.Caption>
+            <section className="about-text coolest-gig">
+							<h3>My Coolest Gig</h3>
+							<p>In 2014, I spent three months in Ho Chi Minh City, Vietnam, working
+                with a terrific off-shore team.</p>
+              <p>This is Ngu, our Business Analyist. He became a great friend, teaching me
+                how to use public transit, and introducing me to his uncles and his grandmother.</p>
+						</section>
+            <p className="photo-location">
+              Ho Chi Minh City, Vietnam
+            </p>
           </Carousel.Item>
 
           <Carousel.Item>
             <img src={hongkong} alt="hongkong-airport"/>
-            <Carousel.Caption>
-              <h6>Where I want to go</h6>
-              <p>Photo location: Hong Kong airport train station</p>
-            </Carousel.Caption>
+            <section className="about-text bucket-list">
+							<h3>My Bucket List</h3>
+							<p>I've done a lot, but there's plenty more to do.</p>
+              <p className="list-item">Win <em>The Amazing Race</em></p>
+              <p className="list-item">Hike the Pacific Trail</p>
+              <p className="list-item">See the Northern Lights</p>
+              <p className="list-item">Work for Kiva</p>
+              <p>Maybe your project should be on my list, too. Call me.</p>
+						</section>
+            <p className="photo-location">
+              Hong Kong Airport Train Station
+            </p>
           </Carousel.Item>
 
         </Carousel>

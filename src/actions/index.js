@@ -6,3 +6,10 @@ export function selectTechnology(technology) {
 		payload: technology
 	};
 }
+
+export function selectLogo(logo) {
+	return {
+		type: 'LOGO_SELECTED',
+		payload: logo
+	};
+}

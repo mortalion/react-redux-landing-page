@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
+import { bindActionCreators } from 'redux';
 import { connect } from 'react-redux';
 import { selectTechnology } from '../actions/index.js';
-import { bindActionCreators } from 'redux';
 import { Button } from 'reactstrap';
 import './BricksList.css';
 

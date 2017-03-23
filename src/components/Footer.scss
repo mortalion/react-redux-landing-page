@@ -1,58 +1,72 @@
 .Footer {
-  padding: 1rem 0 0 0;
+  padding-top: 3rem;
   background-color: #333;
   .footer-nav {
-    flex-direction: row;
+    flex-direction: column;
   }
   h6 {
-    padding-top: 1rem;
+    margin-bottom: 1rem;
     color: lightgray;
+    @media (min-width: 1200px) {
+      font-size: 1.6rem;
+    }
   }
   a {
-    padding: 0 1.2rem 1rem 0;
+    margin-top: -1rem;
     color: lightgray;
+    &.top-link {
+      font-size: .8rem;
+      position: absolute;
+      top: -1.5rem;
+      right: .7rem;
+      @media (min-width: 768px) {
+        top: -1rem;
+        right: 0;
+      }
+      @media (min-width: 1200px) {
+        font-size: 1rem;
+        top: -1rem;
+        right: -4rem;
+      }
+    }
     &:hover {
       color: darkgray;
-    }
-    @media (min-width: 360px) {
-      padding: 0 1.6rem 1rem 0;
     }
   }
   p {
     font-size: .8rem;
     line-height: 1rem;
     color: darkgray;
+    @media (min-width: 1200px) {
+      font-size: 1rem;
+    }
+    &.disclaimer-text {
+      margin-top: -.5rem;
+    }
     &.copyright {
       margin-top: -.75rem;
     }
   }
-  .social-icon {
-    margin-right: -.15rem;
-    color: lightgray;
-    &:hover {
-      color: darkgray;
-    }
-  }
   .wrapper {
-    padding: .3rem 0;
-    //display: flex;
-    //flex-direction: row;
-    //justify-content: flex-start;
-    margin: 0;
     .left {
-      //flex: 0;
       float:left;
       .name {
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: .2rem;
+        @media (min-width: 1200px) {
+          font-size: 1.1rem;
+        }
       }
     }
     .right {
-      //flex: 1;
       float: left;
+      margin-bottom: 2rem;
       .domain {
-        font-size: 1rem;
+        font-size: .9rem;
         line-height: .2rem;
+        @media (min-width: 1200px) {
+          font-size: 1.1rem;
+        }
       }
     }
   }

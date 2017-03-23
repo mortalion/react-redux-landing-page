@@ -35,7 +35,7 @@ class AboutSection extends Component {
             <img src={patrick} alt="patrick"/>
 						<section className="about-text patrick">
 							<h3>About me</h3>
-							<p>I'm don't really have a halo; the sun here is backlighting my
+							<p>I don't really have a halo; the sun here is backlighting my
                  shiny dome. But I <em>do</em> have preferences:</p>
               <p className="list-item">React over Angular</p>
               <p className="list-item">MongoDB over MySQL</p>

@@ -10,58 +10,46 @@ class Footer extends Component {
   			<Container>
   				<Row>
   					<Col xs="12">
-  						<Nav className="footer-nav internal-links">
-  							<NavItem>
-                  <NavLink href="#now">Now</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="#then">Then</NavLink>
-                </NavItem>
-  							<NavItem>
-                  <NavLink href="#roles">Roles</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="#clients">Clients</NavLink>
-                </NavItem>
-                <NavItem>
-                  <NavLink href="#about">About</NavLink>
-                </NavItem>
-  						</Nav>
+              <a href="#now" className="top-link">top</a>
   					</Col>
-  					<Col xs="12">
-  						<Nav className="footer-nav social=links">
-  							<NavItem>
-                  <NavLink href="https://github.com/pjamieson/react-bootstrap4-resume" target="_blank">
-                    <FontAwesome name="github" className="social-icon" size="3x" />
-                  </NavLink>
-                </NavItem>
-  							<NavItem>
-                  <NavLink href="https://www.linkedin.com/in/patrick-react-jamieson/" target="_blank">
-                    <FontAwesome name="linkedin" className="social-icon" size="3x" />
-                  </NavLink>
-                </NavItem>
-  						</Nav>
-  					</Col>
-            <Col xs="12">
-              <h6>Contact</h6>
-              <div className="wrapper">
-                <div className="left">
-                  <p className="name">patrick@</p>
+          </Row>
+          <Row>
+            <Col xs="3" md="2">
+                <Nav className="footer-nav">
+    							<NavItem>
+                    <NavLink href="https://github.com/pjamieson/react-bootstrap4-resume" target="_blank">
+                      <FontAwesome name="github" className="social-icon" size="3x" />
+                    </NavLink>
+                  </NavItem>
+    							<NavItem>
+                    <NavLink href="https://www.linkedin.com/in/patrick-react-jamieson/" target="_blank">
+                      <FontAwesome name="linkedin" className="social-icon" size="3x" />
+                    </NavLink>
+                  </NavItem>
+    						</Nav>
+              </Col>
+              <Col xs="9" md="4">
+                <div className="wrapper">
+                  <h6>Contact</h6>
+                  <div className="left">
+                    <p className="name">patrick@</p>
+                  </div>
+                  <div className="right">
+                    <p className="domain">patrickjamieson.com</p>
+                    <p className="domain">cleancodecorp.com</p>
+                    <p className="domain">ibookx.com</p>
+                    <p className="domain">iartx.com</p>
+                  </div>
                 </div>
-                <div className="right">
-                  <p className="domain">patrickjamieson.com</p>
-                  <p className="domain">cleancodecorp.com</p>
-                  <p className="domain">ibookx.com</p>
-                  <p className="domain">iartx.com</p>
-                </div>
-              </div>
   					</Col>
-  					<Col xs="11">
+  					<Col xs="12" md="5">
   						<h6>Disclaimer</h6>
-  						<p>I am not a web designer, even though you may have seen me playing
-                one on this site. Ratione provident soluta veritatis beatae eaque dolorem reiciendis
-                inventore non earum nemo, voluptate itaque consequatur quidem alias
-                pariatur ducimus laboriosam reprehenderit. Totam.</p>
+  						<p className="disclaimer-text">I am not a web designer, even though you may have seen me playing one
+                on this site. It seems to me that a disclaimer should disclaim more than
+                that, so here's some more fine print for your reading pleasure: Ratione
+                provident soluta veritatis beatae eaque dolorem reiciendis inventore non
+                earum nemo, voluptate itaque consequatur quidem alias pariatur ducimus
+                laboriosam reprehenderit. Totam.</p>
   					</Col>
   				</Row>
           <Row>

@@ -29,6 +29,7 @@ class Footer extends Component {
     						</Nav>
               </Col>
               <Col xs="9" md="4">
+                <Row>
                 <div className="wrapper">
                   <h6>Contact</h6>
                   <div className="left">
@@ -41,6 +42,10 @@ class Footer extends Component {
                     <p className="domain">iartx.com</p>
                   </div>
                 </div>
+              </Row>
+              <Row>
+                <p className="principals-only"><em>Principals only please</em></p>
+              </Row>
   					</Col>
   					<Col xs="12" md="5">
   						<h6>Disclaimer</h6>

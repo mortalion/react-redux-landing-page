@@ -69,8 +69,9 @@ class AboutSection extends Component {
 							<h3>My Coolest Gig</h3>
 							<p>In 2014, I spent three months in Ho Chi Minh City, Vietnam, working
                 with a terrific off-shore team.</p>
-              <p>This is Ngu, our Business Analyist. He became a great friend, teaching me
-                how to use public transit, and introducing me to his uncles and his grandmother.</p>
+              <p>This is Ngu, our Business Analyst. He became a great friend, teaching
+                me how to use public transit, and introducing me to his uncles and his
+                grandmother.</p>
 						</section>
             <p className="photo-location">
               Ho Chi Minh City, Vietnam

@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Col, Container, Row } from 'reactstrap';
-import alphaeon from '../assets/logos/alphaeon-logo.png';
 import amgen from '../assets/logos/amgen-logo.png';
 import apple from '../assets/logos/apple-logo.png';
 import ca from '../assets/logos/ca-logo.png';
+import eveo from '../assets/logos/eveo-logo.jpg';
 import gilead from '../assets/logos/gilead-logo.png';
 import janssen from '../assets/logos/janssen-logo.png';
 import kaiser from '../assets/logos/kp-logo.jpeg';
@@ -26,9 +26,6 @@ class ClientsSection extends Component {
           </Row>
           <Row>
             <Col className="client_logo" xs="4" sm="3" md="2" xl="1">
-              <img className="img-fluid" src={alphaeon} alt="alphaeon" />
-            </Col>
-            <Col className="client_logo" xs="4" sm="3" md="2" xl="1">
               <img className="img-fluid soften-black" src={amgen} alt="amgen" />
             </Col>
             <Col className="client_logo" xs="4" sm="3" md="2" xl="1">
@@ -36,6 +33,9 @@ class ClientsSection extends Component {
             </Col>
             <Col className="client_logo" xs="4" sm="3" md="2" xl="1">
               <img className="img-fluid soften-black" src={ca} alt="ca" />
+            </Col>
+            <Col className="client_logo" xs="4" sm="3" md="2" xl="1">
+              <img className="img-fluid soften-black" src={eveo} alt="eveo" />
             </Col>
             <Col className="client_logo" xs="4" sm="3" md="2" xl="1">
               <img className="img-fluid" src={gilead} alt="gilead" />

@@ -22,7 +22,7 @@ class ClientsSection extends Component {
         <Container>
           <Row>
             <Col>
-              <h6>Here's an even dozen of my previous employers and clients</h6>
+              <h6>Here&rsquo;s an even dozen of my previous employers and clients</h6>
             </Col>
           </Row>
           <Row>

@@ -13,7 +13,7 @@ class RolesSection extends Component {
 				<Container>
           <Row>
             <Col>
-              <h1>Roles I'm prepared to perform</h1>
+              <h1>Roles I&rsquo;m prepared to perform</h1>
     					<h6 className="subhead">
                 Illustrated with paintings from my Haitian Art collection.
               </h6>
@@ -45,9 +45,9 @@ class RolesSection extends Component {
 								<CardImg className="img-fluid" src={leader} alt="lead" />
 								<CardBlock>
 									<CardText>
-                    <strong><em>Hands-On Leadership:</em></strong> I'll mentor and
-                    shepherd the flock, keep things moving and on-track. But I've got
-                    to have my paws in the code. I've been a manager; that's not for me.
+                    <strong><em>Hands-On Leadership:</em></strong> I&rsquo;ll mentor and
+                    shepherd the flock, keep things moving and on-track. But I&rsquo;ve got
+                    to have my paws in the code. I&rsquo;ve been a manager; that's not for me.
                   </CardText>
 								</CardBlock>
 							</Card>
@@ -62,7 +62,7 @@ class RolesSection extends Component {
 								<CardBlock>
 									<CardText>
                     <strong><em>A Good Soldier:</em></strong> I can carry the water
-                    and hoe the hard rows while turning sows' ears into silk purses.
+                    and hoe the hard rows while turning sows&rsquo; ears into silk purses.
                     I buckle down and bring home the bacon. And I eat up metaphors.
                   </CardText>
 								</CardBlock>

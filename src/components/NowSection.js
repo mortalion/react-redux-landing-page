@@ -12,7 +12,7 @@ class NowSection extends Component {
           <Row>
             <Col sm="4" xs="12">
               <div className="do-it">
-                <h1>Let's do it!</h1>
+                <h1>Let&rsquo;s do it!</h1>
                 <FontAwesome name="long-arrow-right" className="long-arrow bounce" size="5x" />
                 <h3 className="subtitle">These are a few of my favorite things</h3>
               </div>

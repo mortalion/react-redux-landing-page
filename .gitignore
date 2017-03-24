@@ -18,3 +18,5 @@ yarn-error.log*
 
 # With sass as source, don't need generated css
 src/**/*.css
+
+/src/assets/unused-images

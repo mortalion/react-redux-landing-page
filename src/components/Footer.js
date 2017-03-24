@@ -9,12 +9,15 @@ class Footer extends Component {
       <footer className="Footer">
         <Container>
           <Row>
-            <Col xs="12">
+            <Col sm="11" xs="10">
+              <p>&nbsp;</p>
+            </Col>
+            <Col sm="1" xs="2">
               <a href="#now" className="top-link">top</a>
             </Col>
           </Row>
           <Row>
-            <Col xs="3" md="2">
+            <Col sm="2" xs="3">
               <Nav className="footer-nav">
                 <NavItem>
                   <NavLink href="https://github.com/pjamieson/react-bootstrap4-resume" target="_blank">
@@ -28,7 +31,7 @@ class Footer extends Component {
                 </NavItem>
               </Nav>
             </Col>
-            <Col xs="9" md="4">
+            <Col lg="3" sm="4" xs="9">
               <Row>
                 <div className="wrapper">
                   <h6>Contact</h6>
@@ -47,16 +50,15 @@ class Footer extends Component {
                 <p className="principals-only"><em>Principals only please</em></p>
               </Row>
             </Col>
-            <Col xs="12" md="5">
+            <Col sm="5" xs="12">
               <h6>Disclaimer</h6>
               <p className="disclaimer-text">
                 I am not a web designer, even though you may have seen me playing
-                one on this site. It seems to me that a disclaimer should disclaim
-                more than that, so here&rsquo;s some more fine print for your
-                reading pleasure: Ratione provident soluta veritatis beatae eaque
-                dolorem reiciendis inventore non earum nemo, voluptate itaque
-                consequatur quidem alias pariatur ducimus laboriosam reprehenderit.
-                Totam.
+                one on this site. It seems to me that a disclaimer should probably disclaim
+                more than that, so here&rsquo;s some Hipster Ipsum fine print for your
+                reading pleasure: Godard meggings kale chips helvetica, semiotics
+                literally quinoa lomo. Jean shorts poutine mustache, skateboard
+                laboris artisan migas dolore cred blog venmo. Ciao.
             </p>
             </Col>
           </Row>

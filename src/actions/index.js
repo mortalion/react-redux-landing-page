@@ -13,3 +13,10 @@ export function selectLogo(logo) {
 		payload: logo
 	};
 }
+
+/*
+	While I have established these two actions here, I have not implemented
+	them in this simple site. Later I might add navigating to the company
+	website when a logo is selected, or providing a popup with more info
+	about a technology when one is selected or hovered over.
+*/

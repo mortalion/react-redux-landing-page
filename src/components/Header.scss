@@ -1,8 +1,11 @@
 .Header {
-  width: 100%;
-  max-width: 100%;
   min-height: 80px;
   max-height: 80px;
+  .navbar {
+    max-width: 1500px;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .patrick {
     margin-top: 1rem;
     width: 100%;

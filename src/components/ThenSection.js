@@ -4,7 +4,6 @@ import BricksList from './BricksList';
 import './ThenSection.css';
 
 class ThenSection extends Component {
-
   render() {
     return (
       <section id="then" className="ThenSection">

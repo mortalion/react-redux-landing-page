@@ -7,14 +7,14 @@ import './ClientsSection.css';
 
 class ClientsSection extends Component {
   renderList() {
-		return this.props.logos.map((logo) => {
-			return (
+    return this.props.logos.map((logo) => {
+      return (
         <Col key={logo.id} className="client_logo" xs="4" sm="3" md="2" xl="1">
           <img className="img-fluid"
             src={logo.image_path} alt={logo.name} />
         </Col>
-			);
-		});
+      );
+    });
   }
   render() {
     return (
@@ -35,16 +35,16 @@ class ClientsSection extends Component {
 }
 
 function mapStateToProps(state) {
-	// Whatever is returned will show up in the props of this (ClientsSection)
-	return {
-		logos: state.logos
-	};
+  // Whatever is returned will show up in the props of this (ClientsSection)
+  return {
+    logos: state.logos
+  };
 }
 
 function mapDispatchToProps(dispatch) {
-	// Whenever selectLogo is called, the result should be passed
-	//  to all of our reducers.
-	return bindActionCreators({ selectLogo: selectLogo}, dispatch);
+  // Whenever selectLogo is called, the result should be passed
+  //  to all of our reducers.
+  return bindActionCreators({ selectLogo: selectLogo}, dispatch);
 }
 
 // Promote ClientsSection from a React component to a Redux container.

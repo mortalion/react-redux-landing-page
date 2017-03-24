@@ -7,34 +7,34 @@ import './BricksList.css';
 
 class BricksList extends Component {
   renderList() {
-		return this.props.technologies.map((technology) => {
-			return (
+    return this.props.technologies.map((technology) => {
+      return (
         <Button key={technology.id} className="brick" outline>
           {technology.name}
         </Button>
-			);
-		});
-	}
-	render() {
-		return (
+      );
+    });
+  }
+  render() {
+    return (
       <div className="BricksList">
         {this.renderList()}
       </div>
-		);
-	}
+    );
+  }
 }
 
 function mapStateToProps(state) {
-	// Whatever is returned will show up in the props of this (BricksList)
-	return {
-		technologies: state.technologies
-	};
+  // Whatever is returned will show up in the props of this (BricksList)
+  return {
+    technologies: state.technologies
+  };
 }
 
 function mapDispatchToProps(dispatch) {
-	// Whenever selectTechnology is called, the result should be passed
-	//  to all of our reducers.
-	return bindActionCreators({ selectTechnology: selectTechnology}, dispatch);
+  // Whenever selectTechnology is called, the result should be passed
+  //  to all of our reducers.
+  return bindActionCreators({ selectTechnology: selectTechnology}, dispatch);
 }
 
 // Promote BricksList from a React component to a Redux container.

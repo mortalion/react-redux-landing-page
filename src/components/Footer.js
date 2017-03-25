@@ -20,7 +20,7 @@ class Footer extends Component {
             <Col sm="2" xs="3">
               <Nav className="footer-nav">
                 <NavItem>
-                  <NavLink href="https://github.com/pjamieson/react-bootstrap4-resume" target="_blank">
+                  <NavLink href="https://github.com/pjamieson/react-redux-landing-page" target="_blank">
                     <FontAwesome name="github" className="social-icon" size="3x" />
                   </NavLink>
                 </NavItem>

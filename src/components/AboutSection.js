@@ -38,6 +38,9 @@ class AboutSection extends Component {
               <p className="list-item">AWS over Heroku</p>
               <p className="list-item">Flip-Flops over Shoes</p>
             </section>
+            <p className="photo-credit">
+              Photo &copy; Rebecca Jamieson
+            </p>
             <p className="photo-location">
               Musee du Louvre, Paris, France
             </p>
@@ -53,6 +56,9 @@ class AboutSection extends Component {
                 <p className="list-item">Advertising &amp; Retail</p>
               <p>That said, I love learning new things.</p>
             </section>
+            <p className="photo-credit">
+              Photo &copy; Patrick Jamieson
+            </p>
             <p className="photo-location">
               Lençóis Maranhenses, Maranhão, Brasil
             </p>
@@ -67,6 +73,9 @@ class AboutSection extends Component {
                 me how to use public transit, and introducing me to his uncles and his
                 grandmother.</p>
             </section>
+            <p className="photo-credit">
+              Photo &copy; Patrick Jamieson
+            </p>
             <p className="photo-location">
               Ho Chi Minh City, Vietnam
             </p>
@@ -82,6 +91,9 @@ class AboutSection extends Component {
               <p className="list-item">Work for Kiva</p>
               <p>Maybe your project should be on my list, too. Call me.</p>
             </section>
+            <p className="photo-credit">
+              Photo &copy; Patrick Jamieson
+            </p>
             <p className="photo-location">
               Hong Kong Airport Train Station
             </p>

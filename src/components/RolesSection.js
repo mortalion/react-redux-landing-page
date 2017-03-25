@@ -20,7 +20,7 @@ class RolesSection extends Component {
             </Col>
           </Row>
           <Row>
-            <Col xs="12" md="4">
+            <Col className="card-column" xs="12" sm="4">
               <Card>
                 <CardBlock>
                   <CardTitle>Solution Architect</CardTitle>
@@ -36,7 +36,7 @@ class RolesSection extends Component {
                 </CardBlock>
               </Card>
             </Col>
-            <Col xs="12" md="4">
+            <Col className="card-column" xs="12" sm="4">
               <Card>
                 <CardBlock>
                   <CardTitle>Technical Lead</CardTitle>
@@ -52,7 +52,7 @@ class RolesSection extends Component {
                 </CardBlock>
               </Card>
             </Col>
-            <Col xs="12" md="4">
+            <Col className="card-column" xs="12" sm="4">
               <Card>
                 <CardBlock>
                   <CardTitle>Senior Developer</CardTitle>

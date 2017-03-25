@@ -9,7 +9,7 @@ class ClientsSection extends Component {
   renderList() {
     return this.props.logos.map((logo) => {
       return (
-        <Col key={logo.id} className="client_logo" xs="4" sm="3" md="2" xl="1">
+        <Col key={logo.id} className="client_logo" xs="4" sm="3" md="2">
           <img className="img-fluid"
             src={logo.image_path} alt={logo.name} />
         </Col>

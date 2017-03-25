@@ -10,7 +10,7 @@ class NowSection extends Component {
       <section id="now" className="NowSection">
         <Container>
           <Row>
-            <Col sm="4" xs="12">
+            <Col sm="4">
               <div className="do-it">
                 <h1>Let&rsquo;s do it!</h1>
                 <FontAwesome name="long-arrow-right" className="long-arrow bounce" size="5x" />

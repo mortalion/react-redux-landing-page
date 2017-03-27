@@ -2,8 +2,8 @@ import React, { Component } from 'react';
 import ReactGA from 'react-ga'; // React Google Analytics
 import Header from './Header';
 import NowSection from './NowSection';
-import RolesSection from './RolesSection';
 import ThenSection from './ThenSection';
+import RolesSection from './RolesSection';
 import ClientsSection from './ClientsSection';
 import AboutSection from './AboutSection';
 import Footer from './Footer';

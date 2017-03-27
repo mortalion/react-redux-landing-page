@@ -7,9 +7,23 @@ import soldier from '../assets/images/soldier-8.jpg';
 import './RolesSection.css';
 
 class RolesSection extends Component {
+  constructor(props) {
+    super(props);
+    this.state =  { loading: 3 }; // Loading the 3 card images
+    this.showSection = this.showSection.bind(this);
+  }
+  showSection() {
+    let { loading } = this.state;
+    this.showSection = (loading === 0);
+  }
+  imageLoaded() {
+    let remaining_to_load = this.state.loading -1;
+    this.setState({ loading: remaining_to_load });
+  }
   render() {
+    let classHide = this.state.showsection ? "hide" : "";
     return (
-      <section id="roles" className="RolesSection">
+      <section id="roles" className={"RolesSection " + classHide}>
         <Container>
           <Row>
             <Col>
@@ -26,7 +40,8 @@ class RolesSection extends Component {
                   <CardTitle>Solution Architect</CardTitle>
                   <CardSubtitle>Favor Isomorphic JavaScript</CardSubtitle>
                 </CardBlock>
-                <CardImg className="img-fluid" src={architect} alt="architect" />
+                <CardImg className="img-fluid" src={architect} alt="architect"
+                  onLoad={this.imageLoaded.bind(this)} />
                 <CardBlock>
                   <CardText>
                     <strong><em>Isomorphic JavaScript:</em></strong> These days, I
@@ -38,11 +53,12 @@ class RolesSection extends Component {
             </Col>
             <Col className="card-column" xs="12" sm="4">
               <Card>
-                <CardBlock>
-                  <CardTitle>Technical Lead</CardTitle>
-                  <CardSubtitle>Geographically-dispersed teams</CardSubtitle>
-                </CardBlock>
-                <CardImg className="img-fluid" src={leader} alt="lead" />
+                    <CardBlock>
+                      <CardTitle>Technical Lead</CardTitle>
+                      <CardSubtitle>Geographically-dispersed teams</CardSubtitle>
+                    </CardBlock>
+                <CardImg className="img-fluid" src={leader} alt="lead"
+                  onLoad={this.imageLoaded.bind(this)} />
                 <CardBlock>
                   <CardText>
                     <strong><em>Hands-On Leadership:</em></strong> I&rsquo;ll mentor and
@@ -58,7 +74,8 @@ class RolesSection extends Component {
                   <CardTitle>Senior Developer</CardTitle>
                   <CardSubtitle>Full-stack. Front. Middle. Back.</CardSubtitle>
                 </CardBlock>
-                <CardImg className="img-fluid" src={soldier} alt="developer" />
+                <CardImg className="img-fluid" src={soldier} alt="developer"
+                  onLoad={this.imageLoaded.bind(this)} />
                 <CardBlock>
                   <CardText>
                     <strong><em>A Good Soldier:</em></strong> I can carry the water

@@ -1,6 +1,10 @@
 .ThenSection {
+  animation-delay: 1s;
   position: relative;
   padding-bottom: 20px;
+  &.hide {
+    display: none;
+  }
   .headline {
     position: absolute;
     top: 95px;

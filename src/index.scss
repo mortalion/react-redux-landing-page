@@ -36,10 +36,10 @@ body {
   section {
     padding-top: 90px;
     margin-top: -90px;
-    animation-name: fadeInTop;
+    animation-name: fadeIn;
     animation-timing-function: ease-out;
     animation-fill-mode: backwards;
-    animation-duration: .25s;
+    animation-duration: .4s;
     .container {
       width: 100%;
       padding: 0;
@@ -55,7 +55,7 @@ body {
     animation-name: fadeIn;
     animation-timing-function: ease-out;
     animation-fill-mode: backwards;
-    animation-duration: .25s;
+    animation-duration: .4s;
   }
   // <CardText> is a <p>
   p {

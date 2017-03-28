@@ -1,8 +1,7 @@
 .NowSection {
-  animation-name: fadeIn;
+  animation-name: fadeInTop;
   animation-delay: .1s;
   .do-it {
-    animation-delay: .5s;
     height: 0;
     visibility: hidden;
     @media (min-width: 667px) {

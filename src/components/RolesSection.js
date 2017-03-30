@@ -55,7 +55,7 @@ class RolesSection extends Component {
               <Card>
                     <CardBlock>
                       <CardTitle>Technical Lead</CardTitle>
-                      <CardSubtitle>Geographically-dispersed teams</CardSubtitle>
+                      <CardSubtitle>Geographically-Dispersed Teams</CardSubtitle>
                     </CardBlock>
                 <CardImg className="img-fluid" src={leader} alt="lead"
                   onLoad={this.imageLoaded.bind(this)} />

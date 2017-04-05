@@ -7,6 +7,7 @@ class ThenSection extends Component {
   constructor(props) {
     super(props);
     this.state =  { loading: 1 }; // Only loading the background image
+    this.imageLoaded = this.imageLoaded.bind(this);
   }
   imageLoaded() {
     this.setState(prevState => ({
@@ -18,7 +19,7 @@ class ThenSection extends Component {
     return (
       <section id="then" className={"ThenSection " + classHide}>
         <img src={foundation} width="100%" alt="foundation"
-          onLoad={this.imageLoaded.bind(this)} />
+          onLoad={this.imageLoaded} />
         <div className="headline">
           <h1>Been there.<span className="done-that">Done that.</span></h1>
         </div>

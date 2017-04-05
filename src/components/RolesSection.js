@@ -10,6 +10,7 @@ class RolesSection extends Component {
   constructor(props) {
     super(props);
     this.state =  { loading: 3 }; // Loading the 3 card images
+    this.imageLoaded = this.imageLoaded.bind(this);
   }
   imageLoaded() {
     this.setState(prevState => ({
@@ -17,7 +18,7 @@ class RolesSection extends Component {
     }));
   }
   render() {
-    //console.log(this.state.loading);
+    console.log(this.state.loading);
     let classHide = this.state.loading > 0 ? "hide" : "";
     return (
       <section id="roles" className={"RolesSection " + classHide}>
@@ -38,7 +39,7 @@ class RolesSection extends Component {
                   <CardSubtitle>Favor Isomorphic JavaScript</CardSubtitle>
                 </CardBlock>
                 <CardImg className="img-fluid" src={architect} alt="architect"
-                  onLoad={this.imageLoaded.bind(this)} />
+                  onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
                     <strong><em>Isomorphic JavaScript:</em></strong> These days, I
@@ -55,7 +56,7 @@ class RolesSection extends Component {
                       <CardSubtitle>Geographically-Dispersed Teams</CardSubtitle>
                     </CardBlock>
                 <CardImg className="img-fluid" src={leader} alt="lead"
-                  onLoad={this.imageLoaded.bind(this)} />
+                  onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
                     <strong><em>Hands-On Leadership:</em></strong> I&rsquo;ll mentor and
@@ -72,7 +73,7 @@ class RolesSection extends Component {
                   <CardSubtitle>Full-stack. Front. Middle. Back.</CardSubtitle>
                 </CardBlock>
                 <CardImg className="img-fluid" src={soldier} alt="developer"
-                  onLoad={this.imageLoaded.bind(this)} />
+                  onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
                     <strong><em>A Good Soldier:</em></strong> I can carry the water

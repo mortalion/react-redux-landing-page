@@ -12,12 +12,12 @@ class RolesSection extends Component {
     this.state =  { loading: 3 }; // Loading the 3 card images
   }
   imageLoaded() {
-    this.setState((prevState, props) => ({
+    this.setState(prevState => ({
       loading: prevState.loading - 1
     }));
   }
   render() {
-    console.log(this.state.loading);
+    //console.log(this.state.loading);
     let classHide = this.state.loading > 0 ? "hide" : "";
     return (
       <section id="roles" className={"RolesSection " + classHide}>

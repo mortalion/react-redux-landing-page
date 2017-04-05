@@ -9,7 +9,7 @@ class ThenSection extends Component {
     this.state =  { loading: 1 }; // Only loading the background image
   }
   imageLoaded() {
-    this.setState((prevState, props) => ({
+    this.setState(prevState => ({
       loading: prevState.loading - 1
     }));
   }

@@ -10,18 +10,15 @@ class RolesSection extends Component {
   constructor(props) {
     super(props);
     this.state =  { loading: 3 }; // Loading the 3 card images
-    this.showSection = this.showSection.bind(this);
-  }
-  showSection() {
-    let { loading } = this.state;
-    this.showSection = (loading === 0);
   }
   imageLoaded() {
-    let remaining_to_load = this.state.loading -1;
-    this.setState({ loading: remaining_to_load });
+    this.setState((prevState, props) => ({
+      loading: prevState.loading - 1
+    }));
   }
   render() {
-    let classHide = this.state.showsection ? "hide" : "";
+    console.log(this.state.loading);
+    let classHide = this.state.loading > 0 ? "hide" : "";
     return (
       <section id="roles" className={"RolesSection " + classHide}>
         <Container>

@@ -7,18 +7,14 @@ class ThenSection extends Component {
   constructor(props) {
     super(props);
     this.state =  { loading: 1 }; // Only loading the background image
-    this.showSection = this.showSection.bind(this);
-  }
-  showSection() {
-    let { loading } = this.state;
-    this.showSection = (loading === 0);
   }
   imageLoaded() {
-    let remaining_to_load = this.state.loading -1;
-    this.setState({ loading: remaining_to_load });
+    this.setState((prevState, props) => ({
+      loading: prevState.loading - 1
+    }));
   }
   render() {
-    let classHide = this.state.showsection ? "hide" : "";
+    let classHide = this.state.loading > 0 ? "hide" : "";
     return (
       <section id="then" className={"ThenSection " + classHide}>
         <img src={foundation} width="100%" alt="foundation"

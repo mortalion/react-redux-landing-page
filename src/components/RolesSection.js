@@ -18,7 +18,7 @@ class RolesSection extends Component {
     }));
   }
   render() {
-    console.log(this.state.loading);
+    //console.log(this.state.loading);
     let classHide = this.state.loading > 0 ? "hide" : "";
     return (
       <section id="roles" className={"RolesSection " + classHide}>

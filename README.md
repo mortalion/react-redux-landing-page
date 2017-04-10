@@ -10,7 +10,7 @@ This project was seeded with [Create React App](https://github.com/facebookincub
 
 I added the [redux](https://github.com/reactjs/redux) and [react-redux](https://github.com/reactjs/react-redux) packages to the project in order to connect locally-stored data to my React components.
 
-With an eye toward using Bootstrap in this project, and following the Create React App documentation for extending the initial seed, I installed node-sass and npm-run-all, then added scripts to the package.json file to watch and build the SCSS files.
+With an eye toward using Bootstrap in this project, and following the Create React App documentation for extending the initial seed, I installed [node-sass](https://github.com/sass/node-sass) and [npm-run-all](https://github.com/mysticatea/npm-run-all), then added scripts to the package.json file to watch and build the SCSS files.
 
 The Create React App documentation currently (March 2017) provides instructions for adding Bootstrap 3 to a React project, but I wanted to start using Bootstrap 4. To accomplish this, I instead followed the Getting Started instructions for [reactstrap](https://github.com/reactstrap/reactstrap), a package that provides Bootstrap 4 components and styles.
 

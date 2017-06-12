@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Col, Container, Row, Nav, NavItem, NavLink } from 'reactstrap';
 import FontAwesome from 'react-fontawesome';
+import badge from '../assets/images/aws-saa-badge.png';
 import './Footer.css';
 
 class Footer extends Component {
@@ -27,6 +28,12 @@ class Footer extends Component {
                 <NavItem>
                   <NavLink href="https://www.linkedin.com/in/patrick-react-jamieson/" target="_blank">
                     <FontAwesome name="linkedin" className="social-icon" size="3x" />
+                  </NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink
+                    href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-06-08&ci=AWS00280356" target="_blank">
+                    <img src={badge} className="img-fluid footer-badge" alt="badge" />
                   </NavLink>
                 </NavItem>
               </Nav>

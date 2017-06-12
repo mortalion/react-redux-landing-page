@@ -33,7 +33,7 @@ class Footer extends Component {
                 <NavItem>
                   <NavLink
                     href="https://www.certmetrics.com/amazon/public/badge.aspx?i=1&t=c&d=2017-06-08&ci=AWS00280356" target="_blank">
-                    <img src={badge} className="img-fluid footer-badge" alt="badge" />
+                    <img src={badge} className="footer-badge" alt="badge" />
                   </NavLink>
                 </NavItem>
               </Nav>

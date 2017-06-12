@@ -17,9 +17,19 @@
     padding-left: 5%;
   }
   .footer-badge {
-    width: 4rem;
-    padding-top: 4px;
-    margin-left: -.7rem,
+    padding-top: .3rem;
+    padding-bottom: .5rem;
+    margin-left: 0;
+    width: 3rem;
+    @media (min-width: 412px) {
+      padding-top: .5rem;
+      padding-bottom: 0;
+      margin-left: -.2rem;
+    }
+    @media (min-width: 736px) {
+      margin-left: -.5rem;
+      width: 3.5rem;
+    }
   }
   h6 {
     margin-bottom: 1rem;

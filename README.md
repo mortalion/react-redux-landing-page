@@ -43,4 +43,6 @@ A couple of days into coding, I discovered that [reactstrap](https://github.com/
 
 ## Site Hosting
 
-Since this landing page is entirely self-contained, I host it from an Amazon Web Services S3 bucket, with DNS provided by AWS's Route53 services. I currently have five small sites hosted this way, at a combined cost of under $10/month.
+Since this landing page itself does not run any server side code, I am able to host it from an Amazon Web Services S3 bucket, with DNS provided by AWS's Route53 service. Since S3 is entirely maintained by Amazon--and it provides virtually unlimited storage, automatic on-demand scaling, and "eleven nines" (99.999999999%) durability--I am free of having to spend time and money maintaining internet gateways, load balancers, and web servers on EC2 instances. Another cost advantage of hosting from an S3 bucket rather than on EC2 web server instances is that you pay only for the actual data transferred and storage used rather than paying hourly for provisioned servers. This is the client-side piece of "Serverless" computing.
+
+While S3 does not directly support HTTPS, the AWS CDN CloudFront does. For that reason--and the performance/latency advantages of deploying to a CDN--I obtained a (Free!) SSL/TSL certificate from Amazon's Certificate Manager service, distributed this S3-hosted site to CloudFront, and applied the certificate to that distribution.

@@ -38,7 +38,7 @@ class Footer extends Component {
                 </NavItem>
               </Nav>
             </Col>
-            <Col lg="3" sm="4" xs="9">
+            <Col sm="4" xs="9">
               <Row>
                 <div className="wrapper">
                   <h6>Contact</h6>
@@ -48,8 +48,6 @@ class Footer extends Component {
                   <div className="right">
                     <p className="domain">patrickjamieson.com</p>
                     <p className="domain">cleancodecorp.com</p>
-                    <p className="domain">ibookx.com</p>
-                    <p className="domain">iartx.com</p>
                   </div>
                 </div>
               </Row>

@@ -34,8 +34,8 @@ class AboutSection extends Component {
               <p>I don&rsquo;t really have a halo; the sun here is backlighting
                 my shiny dome. But I <em>do</em> have preferences:</p>
               <p className="list-item">React over Angular</p>
-              <p className="list-item">MongoDB over MySQL</p>
-              <p className="list-item">AWS over Heroku</p>
+              <p className="list-item">AWS over Google Cloud</p>
+              <p className="list-item">NoSQL over MySQL</p>
               <p className="list-item">Flip-Flops over Shoes</p>
             </section>
             <p className="photo-credit">

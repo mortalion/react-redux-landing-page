@@ -4,21 +4,24 @@
   .do-it {
     height: 0;
     visibility: hidden;
-    @media (min-width: 667px) {
+    @media (min-width: 576px) {
       visibility: visible;
+      margin-right: -30px;
       text-align: right;
       transform: scale(1,1);
       font-size: 1.2rem;
-      padding-top: 35px;
+      padding-top: 40px;
     }
     @media (min-width: 768px) {
       font-size: 1.5rem;
     }
     @media (min-width: 992px) {
+      margin-right: -36px;
       font-size: 2rem;
       padding-top: 60px;
     }
     @media (min-width: 1200px) {
+      margin-right: -50px;
       font-size: 3rem;
       padding-top: 85px;
     }
@@ -38,8 +41,8 @@
       }
     }
     .long-arrow {
-      margin-right: -35px;
-      color: #f9831b; // mongodb orange (from word cloud)
+      margin-right: -40px;
+      color: #ff9900; // amazon yellow orange
       &.bounce {
         animation: bounce 15s infinite;
       }
@@ -50,18 +53,20 @@
       margin-top: -25px;
       font-size: 1.4rem;
       line-height: 1.5rem;
-      padding-left: 8%;
+      padding-left: 25%;
       @media (min-width: 736px) {
         margin-top: -30px;
         font-size: 1.7rem;
         line-height: 1.8rem;
-        padding-left: 5%;
+        padding-left: 20%;
       }
       @media (min-width: 992px) {
         margin-top: -40px;
         font-size: 2rem;
         line-height: 2rem;
-        padding-left: 20%;
+      }
+      @media (min-width: 1024px) {
+        padding-left: 25%;
       }
       @media (min-width: 1200px) {
         margin-top: -55px;

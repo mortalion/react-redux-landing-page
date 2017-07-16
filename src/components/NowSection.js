@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import { Col, Container, Row } from 'reactstrap';
 import FontAwesome from 'react-fontawesome';
-import cloud from '../assets/images/TechStackWordCloud.svg';
+//import cloud from '../assets/images/TechStackWordCloud.svg';
+import cloud from '../assets/images/NewWordCloud.png';
 import './NowSection.css';
 
 class NowSection extends Component {

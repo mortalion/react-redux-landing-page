@@ -35,16 +35,15 @@ class RolesSection extends Component {
             <Col className="card-column" xs="12" sm="4">
               <Card>
                 <CardBlock>
-                  <CardTitle>Solution Architect</CardTitle>
-                  <CardSubtitle>Favor Isomorphic JavaScript</CardSubtitle>
+                  <CardTitle>Solutions Architect</CardTitle>
+                  <CardSubtitle>Favor Serverless Solutions</CardSubtitle>
                 </CardBlock>
                 <CardImg className="img-fluid" src={architect} alt="architect"
                   onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
-                    <strong><em>Isomorphic JavaScript:</em></strong> These days, I
-                    like to employ JavaScript on both the front and back ends. That often
-                    leads me to select React for the client and Node for the server.
+                    <strong><em>Isomorphic JavaScript:</em></strong> I
+                    leverage server-side rendering with Node.js for enhanced SEO. I look to serverless solutions for performance, reliability, and cost-savings.
                   </CardText>
                 </CardBlock>
               </Card>
@@ -53,15 +52,13 @@ class RolesSection extends Component {
               <Card>
                     <CardBlock>
                       <CardTitle>Technical Lead</CardTitle>
-                      <CardSubtitle>Geographically-Dispersed Teams</CardSubtitle>
+                      <CardSubtitle>Globally-Dispersed Teams</CardSubtitle>
                     </CardBlock>
                 <CardImg className="img-fluid" src={leader} alt="lead"
                   onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
-                    <strong><em>Hands-On Leadership:</em></strong> I&rsquo;ll mentor and
-                    shepherd the flock, keep things moving and on-track. But I&rsquo;ve got
-                    to have my paws in the code. I&rsquo;ve been a manager; that&rsquo;s not for me.
+                    <strong><em>Hands-On Leadership:</em></strong> I&rsquo;ll mentor the team,     shepherd the flock. But I&rsquo;ve got to have my paws in the code more often than not. Meetings to plan meetings are not my cup of tea.
                   </CardText>
                 </CardBlock>
               </Card>
@@ -70,7 +67,7 @@ class RolesSection extends Component {
               <Card>
                 <CardBlock>
                   <CardTitle>Senior Developer</CardTitle>
-                  <CardSubtitle>Full-stack. Front. Middle. Back.</CardSubtitle>
+                  <CardSubtitle>Full-stack. Front to Back.</CardSubtitle>
                 </CardBlock>
                 <CardImg className="img-fluid" src={soldier} alt="developer"
                   onLoad={this.imageLoaded} />

@@ -42,8 +42,7 @@ class RolesSection extends Component {
                   onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
-                    <strong><em>Isomorphic JavaScript:</em></strong> I
-                    leverage server-side rendering with Node.js for enhanced SEO. I look to serverless solutions for performance, reliability, and cost-savings.
+                    <strong><em>Isomorphic JavaScript:</em></strong> For improved performance and SEO, I leverage server-side rendering with Node.js. I like serverless solutions for reliability and low-cost, on-demand scaling.
                   </CardText>
                 </CardBlock>
               </Card>
@@ -58,7 +57,7 @@ class RolesSection extends Component {
                   onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
-                    <strong><em>Hands-On Leadership:</em></strong> I&rsquo;ll mentor the team,     shepherd the flock. But I&rsquo;ve got to have my paws in the code more often than not. Meetings to plan meetings are not my cup of tea.
+                    <strong><em>Hands-On Leadership:</em></strong>  I&rsquo;m happy mentoring the team, shepherding the flock. But I&rsquo;ve got to have my paws in the code more often than not. Meetings to plan meetings are not for me.
                   </CardText>
                 </CardBlock>
               </Card>
@@ -73,9 +72,9 @@ class RolesSection extends Component {
                   onLoad={this.imageLoaded} />
                 <CardBlock>
                   <CardText>
-                    <strong><em>A Good Soldier:</em></strong> I can carry the water
-                    and hoe the hard rows while turning sows&rsquo; ears into silk purses.
-                    I buckle down and bring home the bacon. And I eat up metaphors.
+                    <strong><em>A Good Soldier:</em></strong>  I can carry the water
+                    and hoe the hard rows, all while turning sows&rsquo; ears into silk purses.
+                    I buckle down and bring home the bacon. And I eat metaphors for breakfast.
                   </CardText>
                 </CardBlock>
               </Card>
